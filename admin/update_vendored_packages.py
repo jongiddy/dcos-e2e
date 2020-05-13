@@ -45,8 +45,8 @@ def _get_requirements() -> List[_Requirement]:
         target_directory=dcos_e2e_target_directory,
         package_name='dcos_launch',
         install_directories=['dcos_launch'],
-        https_address='https://github.com/dcos/dcos-launch',
-        git_reference='693f2a81403b38b2dd77740fc350345ddab9dfcc',
+        https_address='https://github.com/jongiddy/dcos-launch',
+        git_reference='73e50bb6765ae040582dec948f10503e3253dc98',
     )
 
     test_utils = _Requirement(
@@ -61,8 +61,8 @@ def _get_requirements() -> List[_Requirement]:
         target_directory=dcos_cli_target_directory,
         package_name='dcos_launch',
         install_directories=['dcos_launch'],
-        https_address='https://github.com/dcos/dcos-launch',
-        git_reference='693f2a81403b38b2dd77740fc350345ddab9dfcc',
+        https_address='https://github.com/jongiddy/dcos-launch',
+        git_reference='73e50bb6765ae040582dec948f10503e3253dc98',
     )
 
     test_utils_cli = _Requirement(
